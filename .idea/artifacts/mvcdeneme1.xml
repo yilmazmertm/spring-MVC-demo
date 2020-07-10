@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mvcdeneme1">
+    <output-path>$PROJECT_DIR$/out/artifacts/mvcdeneme1</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="mvcdeneme1/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mvcdeneme1" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-5.2.3.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-5.2.3.RELEASE" />
+          <element id="file-copy" path="$PROJECT_DIR$/.idea/libraries/jstl-1.2.jar" />
+          <element id="library" level="project" name="Hibernate 5.4.11-5.4.11" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/jar_files/validation-api-2.0.1.Final.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
